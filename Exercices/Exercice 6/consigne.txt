@@ -11,3 +11,5 @@ et votre élement <button>
     créez un "eventListener" en ciblant votre <button> (ex : button.addeventlistener()...) ou avec l'attribut onclick html5
     de sorte que lorsque l'on clique sur le boutton, le texte de l'élement <p> change de taille de police.
     (au besoin : cherchez sur google comment alterer le css d'un élément en js)
+    
+Lorsqu'on passe la souris sur le titre h1, celui-ci disparait.
