@@ -67,3 +67,21 @@ let modele2 = 12.6;
 
 let phrase1 = voiture1 + ' ' + modele1 + ', ' + voiture2 + ' ' + modele2;
 console.log(phrase1);
+
+
+//Fonctions
+
+function direBonjour() {
+    console.log('Bonjour !');
+}
+
+direBonjour();
+
+function addition(nbA, nbB = 100) {
+    return ( nbA + nbB );
+}
+
+console.log(addition(17));
+console.debug('test');
+console.error('erreur');
+console.info('info');
