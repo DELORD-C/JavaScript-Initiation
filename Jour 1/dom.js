@@ -8,3 +8,5 @@ function changeColor() {
         elem.style.color = 'blue';
     }
 }
+
+console.log(prompt('Attention !'));
