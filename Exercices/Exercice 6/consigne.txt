@@ -1,0 +1,13 @@
+Dans index.html :
+
+Créer un élément <p> dans le body et lui affecter un id (ex : <p id='id'>Test</p>)
+Créer un élément <button> dans le body et lui affecter un id (ex : <button id='btn'>Boutton</button>)
+
+
+Dans script.js :
+
+    créez deux variables dans lesquelles vous stockerez respectivement votre élement <p>
+et votre élement <button>
+    créez un "eventListener" en ciblant votre <button> (ex : button.addeventlistener()...) ou avec l'attribut onclick html5
+    de sorte que lorsque l'on clique sur le boutton, le texte de l'élement <p> change de taille de police.
+    (au besoin : cherchez sur google comment alterer le css d'un élément en js)
