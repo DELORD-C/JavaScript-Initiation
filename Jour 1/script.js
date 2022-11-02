@@ -4,6 +4,8 @@ let a = 5;
 let b = 2;
 let array = [a, b, 10];
 const NOM = 'Georges';
+let phrase = a + b + NOM + NOM + NOM;
+// console.log(phrase);
 // Opérateur principaux : + - * / %
 
 
