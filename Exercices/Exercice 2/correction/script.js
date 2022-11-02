@@ -10,3 +10,8 @@ voitures.forEach(voiture => {
 // ferrari
 // renault
 // ...
+
+
+for (let index = 0; index < voitures.length; index++) {
+    console.log(voitures[index]);
+}
