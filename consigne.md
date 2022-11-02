@@ -3,7 +3,7 @@ Créer les variables suivantes
 
 - voiture1 (marque de voiture en chaine de charactère)
 - voiture2
-- modele1 (numéro de modèèle en nombre entier ou décimal)
+- modele1 (numéro de modèle en nombre entier ou décimal)
 - modele2
 
 Créer une dernière variable qui s'appellera phrase
