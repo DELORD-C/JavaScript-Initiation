@@ -1,15 +1,19 @@
 let form = document.querySelector('form');
-let input = document.querySelector('input');
+let inputTel = document.querySelector('input');
 let inputMail = document.getElementById('mail');
 
 form.addEventListener('submit', function (e) {
-    //prevenir l'envoi du formulaire
-    e.preventDefault();
-
-    //vérifier si le champ est vide ou bien formatté
-    if (input.value.match(/^(0|\+33)(6|7)[0-9]{8}$/)) {
-        if (inputMail.value.match(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/)) {
-            form.submit();
-        }
-    }
+    //vérifier si les champs sont bien formattés
+    testInput(inputTel, /^(0|\+33)(6|7)[0-9]{8}$/, e);
+    testInput(inputMail, /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/, e);
 });
+
+function testInput(input, regex, e) {
+    if (!input.value.match(regex)) {
+        input.style.borderColor = 'red';
+        e.preventDefault();
+    }
+    else {
+        input.style.borderColor = 'green';
+    }
+}
