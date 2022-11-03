@@ -17,3 +17,7 @@ function testInput(input, regex, e) {
         input.style.borderColor = 'green';
     }
 }
+
+document.getElementById('resetBtn').addEventListener('click', function () {
+    form.reset();
+});
