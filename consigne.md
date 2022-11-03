@@ -12,3 +12,6 @@ dans notre console on veux voir la marque de la premirere voiture
 avec le modele, et la marque de la deuxième voiture avec le modèle
 
 ex : Mercedes 34, Ferrari 12.6
+
+
+<a href="image.png">Image</a>
